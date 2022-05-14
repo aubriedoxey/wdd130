@@ -1,0 +1,42 @@
+body {
+    background-color: pink;
+}
+main {
+    max-width: 500px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    color: white;
+    background-color: pink;
+    font-size: 3.5em;
+}
+
+p {
+    text-align: center;
+}
+#quote {
+    color: white; 
+    background-color: pink;
+    margin: 5px;
+}
+img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+#big_quote{
+    color: white;
+    font-size: 1.75em;
+    padding: 20px;
+    max-width: 45%;
+    display: block;
+    margin: 0 auto;
+}
+#work_cited {
+    margin: 2px;
+}
+
+h1:hover{
+    color: black;
+}
