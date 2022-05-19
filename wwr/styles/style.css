@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Square+Peg&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
+    font-family: Dosis;
 }
 
 nav a {
     text-align: center;
     color: #316574;
     text-decoration: none;
+    font-family: "Square Peg";
+    font-size: 1.15em;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -15,64 +20,125 @@ nav a {
 .button-box {
     text-align: center;
 }
-main section {
+main section h2 {
     text-align: center;
+    font-family: "Square Peg";
+    font-size: 3.25em;
+    color: #316574;
+}
+main img {
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 #background {
     height: 725px;
 }
 body {
     background-color: #FEF2EC;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: Dosis;
 }
 header {
-    background-color: #3ABB83;
+    background-color: #429e5c;
 }
 nav a:hover {
-    background-color: #368196;
+    background-color: #368196a1;
     color: #FEF2EC;
 }
 .book:hover, .join:hover {
-    background-color: #3ABB83;
+    background-color: #429e5c;
     color: #316574;
 }
 #background {
     background-color: #FEF2EC;
 }
 .msg {
-    background-color: #368196;
+    background-color: #368196a1;
+    padding: 35px;
 }
 footer {
     background-color: #FEF2EC;
 }
 .home-title {
     color: #316574;
+    font-family: "Square Peg";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
-    color: #368196;
+    color: #368196a1;
+    font-size: 18px;
 }
 .book, .join {
-    color: #3ABB83;
+    color: #337c48;
     text-decoration: none;
+    font-size: 1.25em;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .msg h2 {
     color: #FEF2EC;
+    font-family: "Square Peg";
+    font-size: 2.5em;
 }
 .msg p {
     color: #FEF2EC;
+    font-size: .8em;
+    padding-bottom: 15px; 
+}
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer h3 {
-    color: #3ABB83;
+    color: #429e5c;
+    font-family: "Square Peg";
+    font-size: 1.5em;
 }
 footer a {
-    color: #368196;
+    color: #368196a1;
     text-decoration: none;
 }
 footer a:hover {
-    color: #3ABB83;
+    color: #429e5c;
 }
 .icon, .logo {
     width: 80px;
 }
 footer h3 a:hover {
     text-decoration: underline;
+}
+#hero_pic {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    padding: 25px;
+}
+footer .social img {
+    width: 50px;
+    padding-top: 15px;
+}
+h2 {
+    margin: 0;
+}
+.icon {
+    padding-top: 10px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .hiking-card, .family-card {
+    margin: 100px 0;
+}
+.card-img {
+    border: 10px solid #368196a1 ;
+}
+.Beautiful-river {
+    margin-bottom: 50px;
 }
