@@ -233,14 +233,14 @@ nav{
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .rivers-card, .hiking-card, .family-card { 
         margin: 50px auto;
         width: 60%;
     }
     #background {
         display: none;
     }
-    .mountains, .msg {
+    .Beautiful-river, .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
