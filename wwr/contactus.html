@@ -21,6 +21,7 @@
             </nav>
         </header>
         <main class="contactus">
+            <div id="feedback"></div>
             <form action="/my-handling-form-page" method="post">
                 <ul>
                     <li>
@@ -40,6 +41,16 @@
                     </li>
                 </ul>
             </form>
+            <script>
+                const feedbackElement = document.getElementById('id');
+                const formElement = document.forms[0];
+                formElement.addEventListener('submit', function(e){
+                    e.preventDefault();
+                    feedbackElement.innerHTML='Hello'+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!'
+                    feedbackElement.style.display="block";
+                    document.body.classList.toggle('moveDown');
+                })
+            </script>
         </main>
         <footer>
             <h3>Adrenaline Junkies Adventures &copy; 2022 - Aubrie Doxey</h3>
