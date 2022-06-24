@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"BYU-Idaho Tutoring Center | About Your Tutor | Home" </title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class = "logo" src="images/BYUI Tutoring Center-logos.jpeg" alt="Tutoring-center-logo">
+            </a>
+            <nav>
+                <a href="index.html"><strong>Home</strong></a>
+                <a href="about-tutor.html"><strong>About Your Tutor</strong></a>
+                <a href="site-plan.html"><strong>Site Plan</strong></a>
+                <a href="contactus.html"><strong>Contact Us</strong></a>
+            </nav>
+        </header>
+        <main class="home-grid">
+            <section id="top-header">
+                <h1 class="header1"><strong>Additional Questions or Requests</strong></h1>
+                <img class="people-studying" src="images/tutoring-session.jpg" alt="picture of Jacob Jewitt">
+            </section>
+            <section id="form">
+                <div id="feedback"></div>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for ="name">Name:</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_email">
+                    </li>
+                    <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                            <button type="submit">Send your Request</button>
+                    </li>
+                </ul>
+            </form>
+            <script>
+                const feedbackElement = document.getElementById('feedback');
+                const formElement = document.forms[0];
+                formElement.addEventListener('submit', function(e){
+                    e.preventDefault();
+                    feedbackElement.innerHTML='Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!'
+                    feedbackElement.style.display="block";
+                    document.body.classList.toggle('moveDown');
+                })
+            </script>
+            </section>
+        </main>
+        <footer>
+            <h3>BYU-Idaho Tutoring Center &copy; 2022 - Aubrie Doxey</h3>
+            <h3><a href="site-plan.html">Site Plan</a></h3>
+            <h3><a href="contactus.html">Contact Us</a></h3>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram_logo.png" alt="Instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
