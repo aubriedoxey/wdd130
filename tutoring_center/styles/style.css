@@ -127,11 +127,11 @@ nav a:hover {
 }
 footer {
     display: grid;
-    grid-template-columns: 110px 1fr 1 fr 1fr;
+    grid-template-columns: 1fr 1fr 1 fr 1fr;
     align-items: center;
     background-color: #f2EFE9;
     color: #0F7CBF;
-    padding: 75px;
+    padding: 50px;
 }
 .copyright {
     grid-row: 1/2;
