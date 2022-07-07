@@ -65,9 +65,10 @@ nav a:hover {
     font-family: Acme;
     color: #f2EFE9;
     font-size: 2em;
+    margin-bottom: 20px;
 }
 #about-msg p {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     padding-left: 250px;
     padding-right: 250px;
     line-height: 1.5em;
@@ -78,7 +79,7 @@ nav a:hover {
     grid-row: 1/2;
     padding-right: 100px;
     padding-bottom: 50px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 .tutoring-wordcloud {
     width: 100%;
@@ -93,6 +94,7 @@ nav a:hover {
 .prep h4 {
     font-family: Acme;
     font-size: 2em;
+    margin-bottom: 20px;
 }
 .prep p {
     padding-left: 100px;
@@ -105,7 +107,7 @@ nav a:hover {
     margin-bottom: 50px;
     margin-right: 25px;
     margin-left: 100px;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 .people-studying {
     width: 100%;
@@ -120,7 +122,8 @@ nav a:hover {
     text-align: center;
     color: #f2EFE9;
     font-size: 2em;
-    padding-right: 400px;
+    padding-right: 300px;
+    margin-bottom: 20px;
 }
 .questions ul {
     text-align: left;
@@ -278,7 +281,7 @@ footer {
     grid-row: 6/8;
     grid-column: 1/2;
     margin-left: 100px;
-    margin-top: 75px;
+    margin-top: 85px;
   }
   .flip-card-inner3 {
     position: relative;
