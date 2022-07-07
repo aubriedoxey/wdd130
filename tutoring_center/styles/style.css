@@ -24,6 +24,8 @@ nav a {
     color: #0F7CBF;
     text-decoration: none;
     font-size: 1.25em;
+    padding: 15px;
+    border-radius: 15px;
 }
 nav a:hover {
     background-color: #0F7CBF;
@@ -146,12 +148,16 @@ footer {
     grid-column: 2/3;
     color: #0F7CBF;
     text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
 }
 .link2 a{
     grid-row: 1/2;
     grid-column: 3/4;
     color: #0F7CBF;
     text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
 }
 .link1 a:hover {
     background-color: #0F7CBF;
@@ -172,22 +178,23 @@ footer {
     grid-template-columns: 1fr 2fr 1fr;
 }
 #top-header {
-    font-family: Acme;
-    text-align: center;
-    color: #f2EFE9;
-    font-size: 2.5em;
-    grid-row: 1/2;
-    grid-column: 1/4;
+  font-family: Acme;
+  text-align: center;
+  color: #f2EFE9;
+  font-size: 2.5em;
+  grid-row: 1/2;
+  grid-column: 1/4;
 }
 .flip-card1 {
     background-color: transparent;
     width: 350px;
-    height: 250px;
+    height: 255px;
     border: 1px solid #f2EFE9;
     perspective: 1000px;
     grid-row: 2/3;
     grid-column: 1/2;
     margin-left: 100px;
+    margin-top: 15px;
   }
   .flip-card-inner1 {
     position: relative;
@@ -223,13 +230,13 @@ footer {
   .flip-card2 {
     background-color: transparent;
     width: 350px;
-    height: 250px;
+    height: 257px;
     border: 1px solid #f2EFE9;
     perspective: 1000px;
     grid-row: 4/6;
     grid-column: 3/4;
     margin-right: 100px;
-    margin-top: 50px;
+    margin-top: 65px;
   }
   .flip-card-inner2 {
     position: relative;
@@ -271,7 +278,7 @@ footer {
     grid-row: 6/8;
     grid-column: 1/2;
     margin-left: 100px;
-    margin-top: 70px;
+    margin-top: 75px;
   }
   .flip-card-inner3 {
     position: relative;
