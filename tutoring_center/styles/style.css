@@ -198,6 +198,7 @@ footer {
     grid-column: 1/2;
     margin-left: 100px;
     margin-top: 15px;
+    border-radius: 15px;
   }
   .flip-card-inner1 {
     position: relative;
@@ -216,6 +217,7 @@ footer {
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    border-radius: 15px;
   }
   .flip-card-front1 {
     background-color: #f2EFE9;
@@ -229,6 +231,7 @@ footer {
   }
   .flip-card-front1 img{
     width: 100%;
+    border-radius: 15px;
   }
   .flip-card2 {
     background-color: transparent;
@@ -240,6 +243,7 @@ footer {
     grid-column: 3/4;
     margin-right: 100px;
     margin-top: 65px;
+    border-radius: 15px;
   }
   .flip-card-inner2 {
     position: relative;
@@ -258,6 +262,7 @@ footer {
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    border-radius: 15px;
   }
   .flip-card-front2 {
     background-color: #f2EFE9;
@@ -271,17 +276,19 @@ footer {
   }
   .flip-card-front2 img{
     width: 100%;
+    border-radius: 15px;
   }
   .flip-card3 {
     background-color: transparent;
     width: 350px;
-    height: 234px;
+    height: 235px;
     border: 1px solid #f2EFE9;
     perspective: 1000px;
     grid-row: 6/8;
     grid-column: 1/2;
     margin-left: 100px;
     margin-top: 85px;
+    border-radius: 15px;
   }
   .flip-card-inner3 {
     position: relative;
@@ -300,6 +307,7 @@ footer {
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    border-radius: 15px;
   }
   .flip-card-front3 {
     background-color: #f2EFE9;
@@ -313,6 +321,7 @@ footer {
   }
   .flip-card-front3 img{
     width: 100%;
+    border-radius: 15px;
   }
   #about-jacob {
     grid-row: 2/4;
