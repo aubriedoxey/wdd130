@@ -463,15 +463,17 @@ footer {
     color: #FEF2EC;
     font-family: Acme;
     position: absolute;
-    bottom: 0;
+    /*bottom: 0;*/
     left: 0;
     right: 0;
     /*padding: .5em;
     /* make this element invisible until we are ready for it */
     display: none; 
     margin-left: 8px;
-    margin-right: 8px;      
+    margin-right: 8px;
+    padding-bottom: 50px; 
+    /*grid-row: 4/5;*/     
 }
 .moveDown {
-    margin-top: 3em;
+    margin-bottom: 3em;
 }
