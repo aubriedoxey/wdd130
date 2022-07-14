@@ -53,12 +53,14 @@
                     e.preventDefault();
                     feedbackElement.innerHTML='Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!'
                     feedbackElement.style.display="block";
-                    document.body.classList.toggle('moveDown');
+                    const footerElement = document.getElementById('footer');
+                    footerElement.setAttribute("class", "moveDown");
+                    console.log(footerElement);
                 })
             </script>
             </section>
         </main>
-        <footer>
+        <footer id="footer">
             <h3 class="copyright">BYU-Idaho Tutoring Center &copy; 2022 - Aubrie Doxey</h3>
             <h3 class="link1"><a href="site-plan.html">Site Plan</a></h3>
             <h3 class="link2"><a href="contactus.html">Contact Us</a></h3>
