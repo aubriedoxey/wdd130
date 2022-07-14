@@ -100,6 +100,7 @@ nav a:hover {
     padding-left: 100px;
     padding-right: 100px;
     line-height: 1.5em;
+    text-align: left;
 }
 .image-3 {
     grid-row: 2/3;
@@ -366,12 +367,15 @@ footer {
   }
   #about-jacob p {
     line-height: 1.5em;
+    text-align: left;
   }
   #about-kimberly p {
     line-height: 1.5em;
+    text-align: left;
   }
   #about-josh p {
     line-height: 1.5em;
+    text-align: left;
   }
   .page3-grid {
     display: grid;
